@@ -1,0 +1,47 @@
+{
+  "name": "friedrichssegen.app",
+  "version": "0.9.6",
+  "description": "Tour around Friedrichssegen",
+  "author": "movisda GmbH",
+  "license": "Closed Source",
+  "main": "js/app.js",
+  "devDependencies": {
+    "workbox-background-sync": "^7.0.0",
+    "workbox-broadcast-update": "^7.0.0",
+    "workbox-build": "^7.0.0",
+    "workbox-cacheable-response": "^7.0.0",
+    "workbox-cli": "^7.0.0",
+    "workbox-core": "^7.0.0",
+    "workbox-expiration": "^7.0.0",
+    "workbox-google-analytics": "^7.0.0",
+    "workbox-navigation-preload": "^7.0.0",
+    "workbox-precaching": "^7.0.0",
+    "workbox-range-requests": "^7.0.0",
+    "workbox-recipes": "^7.0.0",
+    "workbox-routing": "^7.0.0",
+    "workbox-strategies": "^7.0.0",
+    "workbox-streams": "^7.0.0",
+    "workbox-sw": "^7.0.0",
+    "workbox-window": "^7.0.0"
+  },
+  "scripts": {
+    "build": "workbox injectManifest; npm install",
+    "deploy": "rsync -avt --delete --exclude-from=.exclude . root@storage1.int:/var/www/viriditas.geomap.de/friedrichssegen.app",
+    "deploy-dev": "rsync -avt --delete --exclude-from=.exclude . root@storage1.int:/var/www/viriditas.geomap.de/friedrichssegen.dev",
+    "serve": "http-server -p 1336 . -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "optimize": "bin/optimize-pdfs.sh; bin/optimize-pdfjs-svgs.sh",
+    "release": "bin/create-release-package.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.movisda.de/movisda/prj/viriditas/friedrichssegen.app"
+  },
+  "keywords": [
+    "pwa",
+    "viriditas"
+  ],
+  "options": {
+    "editorconfig": true
+  }
+}

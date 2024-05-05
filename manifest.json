@@ -1,0 +1,22 @@
+{
+  "name": "Friedrichssegen App",
+  "short_name": "Friedrichssegen App",
+  "description": "Entdecken der Gegend von Friedrichssegen",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "black",
+  "icons": [
+    {
+      "src": "img/viriditas-text-white-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "img/viriditas-text-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

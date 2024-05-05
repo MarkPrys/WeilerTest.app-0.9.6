@@ -1,0 +1,396 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 40,
+        "Objekt": "Chronik",
+        "PDF": ["./data/content/pdf/FS_Chronik.pdf"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.859, 49.959]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 41,
+        "Objekt": "Erze",
+        "PDF": ["./data/content/pdf/FS_Erze.pdf"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.862, 49.959]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 42,
+        "Objekt": "Glück auf!",
+        "PDF": ["./data/content/pdf/FS_Glueck_auf.pdf"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.865, 49.959]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 43,
+        "Objekt": "Mineralien",
+        "PDF": ["./data/content/pdf/FS_Mineralien.pdf"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.868, 49.959]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 44,
+        "Objekt": "Tagschacht",
+        "PDF": ["./data/content/pdf/FS_Tagschacht.pdf"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.871, 49.959]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 45,
+        "Objekt": "Hubertusviadukt",
+        "Video": ["./data/content/video/Hubertusviadukt_compressed_cutted.webm"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.865, 49.957]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 3,
+        "Objekt": "Kraftwerk",
+        "Bilder": [
+          "./data/Bilder/image/kraftwerk1.jpg",
+          "./data/Bilder/image/kraftwerk2.jpg",
+          "./data/Bilder/image/kraftwerk3.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.859, 49.955]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 2,
+        "Objekt": "Bahnhof",
+        "Bilder": [
+          "./data/Bilder/image/bahnhof_die_Bahnlinie.jpg",
+          "./data/Bilder/image/bahnhof_Friedrichssegen.jpg",
+          "./data/Bilder/image/bahnhof_Grube_Friedrichssegen.jpg",
+          "./data/Bilder/image/bahnhofsgelaende.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.862, 49.955]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 3,
+        "Objekt": "Wohngebaeude Ahl",
+        "Bilder": "./data/Bilder/image/wohngebaeude_Ahl.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.865, 49.955]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 4,
+        "Objekt": "Grubenbahn",
+        "Bilder": ["./data/Bilder/image/grubenbahn1.jpg", "./data/Bilder/image/grubenbahn2.jpg"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.868, 49.955]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 5,
+        "Objekt": "Ahler Gut mit Hüttengebäuden",
+        "Bilder": "./data/Bilder/image/ahler_Gut_mit_Huettengebaeuden.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.871, 49.955]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 6,
+        "Objekt": "Wohngebäude Neue Welt",
+        "Bilder": [
+          "./data/Bilder/image/wohngebaeude_Neue_Welt1.jpg",
+          "./data/Bilder/image/wohngebaeude_Neue_Welt2.jpg",
+          "./data/Bilder/image/wohngebaeude_Neue_Welt3.jpg",
+          "./data/Bilder/image/wohngebaeude_Neue_Welt4.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.859, 49.953]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 7,
+        "Objekt": "Elektromagnetische Blendaufbereitung",
+        "Bilder": "./data/Bilder/image/elektromagnetische_Blendaufbereitung.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.862, 49.953]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 8,
+        "Objekt": "Grubenbahnbrücke zur neuen Halde",
+        "Bilder": ["./data/Bilder/image/grubenbahnbruecke_zur_neuen_Halde1.jpg"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.865, 49.953]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 9,
+        "Objekt": "Grubenbahnstrecke zur neuen Halde",
+        "Bilder": "./data/Bilder/image/grubenbahnbruecke_zur_neuen_Halde2.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.868, 49.953]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 10,
+        "Objekt": "Kölsche Löcher",
+        "Bilder": [
+          "./data/Bilder/image/koelsche_Loecher1.jpg",
+          "./data/Bilder/image/koelsche_Loecher2.jpg",
+          "./data/Bilder/image/koelsche_Loecher3.jpg",
+          "./data/Bilder/image/koelsche_Loecher4.jpg",
+          "./data/Bilder/image/koelsche_Loecher5.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.871, 49.953]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 11,
+        "Objekt": "Zentralbüro Standesamt",
+        "Bilder": "./data/Bilder/image/zentralbuero_Standesamt.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.859, 49.951]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 12,
+        "Objekt": "Wohngebäude am Tagschacht",
+        "Bilder": [
+          "./data/Bilder/image/wohngebaeude_am_Tagschacht1.jpg",
+          "./data/Bilder/image/wohngebaeude_am_Tagschacht2.jpg",
+          "./data/Bilder/image/wohngebaeude_am_Tagschacht3.jpg",
+          "./data/Bilder/image/wohngebaeude_am_Tagschacht4.jpg",
+          "./data/Bilder/image/wohngebaeude_am_Tagschacht5.jpg",
+          "./data/Bilder/image/wohngebaeude_am_Tagschacht6.jpg",
+          "./data/Bilder/image/wohngebaeude_am_Tagschacht7.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.862, 49.951]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 13,
+        "Objekt": "Consum und Bäckerei",
+        "Bilder": "./data/Bilder/image/consum_und_Baeckerei.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.865, 49.951]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 14,
+        "Objekt": "Simultankirche",
+        "Bilder": [
+          "./data/Bilder/image/simultankirche1.jpg",
+          "./data/Bilder/image/simultankirche2.jpg",
+          "./data/Bilder/image/simultankirche3.jpg",
+          "./data/Bilder/image/simultankirche4.jpg",
+          "./data/Bilder/image/simultankirche5.jpg",
+          "./data/Bilder/image/simultankirche6.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.868, 49.951]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 15,
+        "Objekt": "Heinrich-Stollen",
+        "Bilder": "./data/Bilder/image/heinrich_Stollen.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.871, 49.951]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 16,
+        "Objekt": "Tagschacht",
+        "Bilder": [
+          "./data/Bilder/image/tagschacht1.jpg",
+          "./data/Bilder/image/tagschacht2.jpg",
+          "./data/Bilder/image/tagschacht3.jpg",
+          "./data/Bilder/image/tagschacht4.jpg",
+          "./data/Bilder/image/tagschacht5.jpg",
+          "./data/Bilder/image/tagschacht6.jpg",
+          "./data/Bilder/image/tagschacht7.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.859, 49.949]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 17,
+        "Objekt": "Schule am Tagschacht",
+        "Bilder": ["./data/Bilder/image/schule_am_Tagschacht1.jpg", "./data/Bilder/image/schule_am_Tagschacht2.jpg"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.862, 49.949]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 18,
+        "Objekt": "Arbeiter-Kasino",
+        "Bilder": "./data/Bilder/image/arbeiter_Kasino.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.865, 49.949]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 19,
+        "Objekt": "Hauptaufbereitung",
+        "Bilder": "./data/Bilder/image/hauptaufbereitung.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.868, 49.949]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 20,
+        "Objekt": "Wohnung des Direktors",
+        "Bilder": "./data/Bilder/image/wohnung_des_Direktors.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.871, 49.949]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 21,
+        "Objekt": "Friedhof",
+        "Bilder": [
+          "./data/Bilder/image/friedhof1.jpg",
+          "./data/Bilder/image/friedhof2.jpg",
+          "./data/Bilder/image/friedhof3.jpg",
+          "./data/Bilder/image/friedhof4.jpg",
+          "./data/Bilder/image/friedhof5.jpg"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.859, 49.947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 22,
+        "Objekt": "Gasfabrik",
+        "Bilder": ["./data/Bilder/image/gasfabrik1.jpg", "./data/Bilder/image/gasfabrik2.jpg"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.862, 49.947]
+      }
+    }
+  ]
+}
