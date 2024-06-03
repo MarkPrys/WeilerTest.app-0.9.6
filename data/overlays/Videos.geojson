@@ -16,11 +16,11 @@
         "stroke-opacity": 0.75,
         "stroke-width": 6,
         "Objekt": "Hubertusviadukt",
-        "Video": ["./data/content/video/Hubertusviadukt_compressed_cutted.webm"]
+        "Video": ["./data/content/video/Karlsburg.webm"]
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [7.665, 50.314]
+        "coordinates": [7.9, 49.99]
       }
     }
   ]

@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "name": "Weiler Punkte Test",
+    "crs": {
+       "type": "name",
+       "properties": {
+          "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+       }
+    },
+    "features": [
+       {
+          "type": "Feature",
+          "properties": {
+             "id": "1",
+             "Objekt": "Test Objekt 1",
+        "Bilder": [
+          "./data/Bilder/image/kraftwerk1.jpg"
+        ]
+          },
+          "geometry": {
+             "type": "Point",
+             "coordinates": [
+                7.863225775557953,
+                49.95750715203866
+             ]
+          }
+       },
+       {
+          "type": "Feature",
+          "properties": {
+             "id": "2",
+             "Objekt": "Test Objekt 2",
+             "Bilder": [
+               "./data/Bilder/image/bahnhof_die_Bahnlinie.jpg",
+               "./data/Bilder/image/bahnhof_Friedrichssegen.jpg",
+               "./data/Bilder/image/bahnhof_Grube_Friedrichssegen.jpg",
+               "./data/Bilder/image/bahnhofsgelaende.jpg"
+             ]
+          },
+          "geometry": {
+             "type": "Point",
+             "coordinates": [
+                7.877827125747727,
+                49.960488766164346
+             ]
+          }
+       },
+       {
+          "type": "Feature",
+          "properties": {
+             "id": "3",
+             "Objekt": "Test Objekt 3",
+             "Bilder": [
+               "./data/Bilder/image/bahnhof_die_Bahnlinie.jpg",
+               "./data/Bilder/image/bahnhofsgelaende.jpg"
+             ]
+          },
+          "geometry": {
+             "type": "Point",
+             "coordinates": [
+                7.900005307567424,
+                49.96218852701744
+             ]
+          }
+       },
+       {
+          "type": "Feature",
+          "properties": {
+             "id": "4",
+             "Objekt": "Test Objekt 4",
+        "Bilder": [
+          "./data/Bilder/image/kraftwerk1.jpg"
+        ]
+          },
+          "geometry": {
+             "type": "Point",
+             "coordinates": [
+                7.907960712971554,
+                49.9533397831478
+             ]
+          }
+       },
+       {
+          "type": "Feature",
+          "properties": {
+             "id": "5",
+             "Objekt": "Test Objekt 5",
+        "Bilder": [
+          "./data/Bilder/image/kraftwerk1.jpg"
+        ]
+          },
+          "geometry": {
+             "type": "Point",
+             "coordinates": [
+                7.9050325243279,
+                49.943847404269185
+             ]
+          }
+       }
+    ]
+ }

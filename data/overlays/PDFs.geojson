@@ -68,6 +68,23 @@
         "coordinates": [7.67, 50.316]
       }
     },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "Id": 42,
+        "stroke": "#ff6e00",
+        "stroke-opacity": 0.75,
+        "stroke-width": 6,
+        "Objekt": "Mineralien",
+        "PDF": ["./data/content/pdf/FS_Mineralien.pdf"]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.90, 50.0]
+      }
+    },
+    
     {
       "type": "Feature",
       "properties": {
